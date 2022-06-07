@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="varDefinitions.css" rel="stylesheet" >
+        <link href="pwGenerator.css" rel="stylesheet" >
+    </head>
+
+    <body>
+        <div class="mainBox">
+
+            <div class="topRectangle">
+                <h1 class="whiteText">Generate a<br>
+                <span class="greenText">random password</span>
+                </h1>
+                <h4 class="grayText">Never use an insecure password again.</h4>
+            </div> <!--  topRectangle  -->
+            
+            <div>
+                <p class="thinLine"> </p>
+            </div>
+
+            
+            <div class="buttonFrame">
+                <button class="pwButton" id="password-btn" type="button">Generate passwords</button>
+                <p class="dataDisplay" id="dataDisplay-elm" contenteditable></p>
+            </div>  <!-- buttonFrame -->
+            
+            <div>
+                <p class="thinLine"> </p>
+            </div>
+
+            <div class="renderPWframe">
+                <p class="pwDisplay" id="pwDisplay-elm01"></p>
+                <p class="pwDisplay" id="pwDisplay-elm02"></p>
+                <p class="pwDisplay" id="pwDisplay-elm03"></p>
+                <p class="pwDisplay" id="pwDisplay-elm04"></p>
+            </div>  <!-- renderPWframe -->
+        </div> <!--  mainBox  -->
+        
+        <script src="pwGenerator.js"></script>
+    </body>
+</html>

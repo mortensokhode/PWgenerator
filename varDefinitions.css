@@ -1,0 +1,17 @@
+:root {
+    /*  Color definitions */
+    --crispyWhite: #ffffff;
+    --mainDark: #1F2937;
+    --lightText: #D1D4F4;
+    --grayText: #D5D4D8;
+    --thinLine: #313d4d;
+    --lighterDark: #414449;
+    --pwGreen: #4ADF86;
+    --buttonGreen: #10B981;
+    --bloodyRed: #b70808;
+
+    /*  Sie definitions  */
+    --mainWidth: 550px;
+    --mainHeight: 550px;
+    --containerWidth: 90%;
+  }

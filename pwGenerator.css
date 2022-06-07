@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    box-sizing: border-box;
+    background-color: var(--mainDark);
+
+}
+
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    position: auto;
+    width: var(--mainWidth);
+    height: var(--mainHeight);
+
+    background-color: var(--mainDark);
+    color: var(--lightText);
+    border: 6px solid var(--crispyWhite);
+    border-radius: 8px;
+
+}
+
+.topRectangle {
+    position: auto;
+    width: var(--containerWidth);
+    height: 25%;
+    font-family: 'Karla';
+    padding-top: 10%;
+}
+
+.topRectangle h1 h4 {
+    position: auto;
+    height: 10%;
+}
+
+.whiteText {
+    color: var(--crispyWhite);
+}
+
+.grayText {
+    color: var(--grayText);
+}
+
+.greenText {
+    color: var(--pwGreen);
+}
+
+.buttonFrame {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+    position: auto;
+    height: 10%;
+    width: var(--containerWidth);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 3px solid var(--thinLine);
+}
+
+.pwButton {
+    position: auto;
+    
+    width: 47%;
+    height: 75%;
+    
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--lightText);
+    background: var(--buttonGreen);
+    
+    border: 1px solid var(--mainDark);
+    border-radius: 7px;
+}
+
+.pwButton:hover {
+    text-shadow:1px 1px 1px var(--crispyWhite);
+    color: var(--crispyWhite);
+}
+
+.dataDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+    width: 47%;
+    height: 75%;
+
+    color: var(--buttonGreen);
+    background-color: var(--lighterDark);
+    border: 1px solid var(--lighterDark);
+    border-radius: 8px;
+}
+
+.dataDisplay:hover {
+    text-shadow:1px 1px 1px var(--lighterDark);
+    color: var(--pwGreen);
+}
+
+.renderPWframe {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    position: auto;
+    height: 25%;
+    width: var(--containerWidth);
+}
+
+.pwDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 47%;
+    height: 30%;
+
+    color: var(--pwGreen);
+    background-color: var(--lighterDark);
+    border: 1px solid var(--lighterDark);
+    border-radius: 8px;
+}
+
+.material-icons {
+    top: auto;
+    font-size: 22px;
+    padding-right: 30px;
+}
+
